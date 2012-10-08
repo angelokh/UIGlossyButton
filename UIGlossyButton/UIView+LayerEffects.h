@@ -19,4 +19,5 @@
 // Example: [view setShadow:[UIColor blackColor] opacity:0.5 offset:CGSizeMake(1.0, 1.0) blueRadius:3.0];
 - (void) setShadow : (UIColor *)color opacity:(CGFloat)opacity offset:(CGSize) offset blurRadius:(CGFloat)blurRadius;
 
+- (void) setMasksToBounds : (BOOL) masksToBounds;
 @end

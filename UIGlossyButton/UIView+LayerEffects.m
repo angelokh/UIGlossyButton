@@ -28,5 +28,9 @@
 	l.shadowRadius = blurRadius;
 }
 
+- (void) setMasksToBounds : (BOOL) masksToBounds {
+    CALayer *l = self.layer;
+    l.masksToBounds = YES;
+}
 
 @end
